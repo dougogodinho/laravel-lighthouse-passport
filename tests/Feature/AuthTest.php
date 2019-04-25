@@ -7,7 +7,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-class BasicTest extends TestCase
+class AuthTest extends TestCase
 {
     use DatabaseTransactions;
 
@@ -41,5 +41,28 @@ class BasicTest extends TestCase
         $this->assertNotNull($response->json('data.auth.token'));
         $this->assertNotNull($response->json('data.auth.user.id'));
         $this->assertNotNull($response->json('data.auth.user.name'));
+    }
+
+    public function testCheckAuth()
+    {
+        $user = factory(User::class)->create();
+
+        $response = $this->graphql("{ auth { id name } }", $user);
+
+        $response->assertSee($user->name);
+
+        $this->assertNotNull($response->json('data.auth.id'));
+        $this->assertNotNull($response->json('data.auth.name'));
+    }
+
+    public function testCheckAuthWithNoToken()
+    {
+        $user = factory(User::class)->create();
+
+        $response = $this->graphql("{ auth { id name } }");
+
+        $response->assertDontSee($user->name);
+
+        $this->assertNull($response->json('data.auth'));
     }
 }

@@ -6,6 +6,7 @@ scalar Date @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\Date")
 
 type Query {
     hello: String
+    auth: User
     user(id: ID @eq): User @find
     users: [User!]! @paginate
 }
