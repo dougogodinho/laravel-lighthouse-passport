@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2498a3698914881551ee17d3481ae76",
+    "content-hash": "ba800b9aa5ca24f202af21781574b513",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -753,16 +753,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.8.14",
+            "version": "v5.8.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d1ba096bf809c7cbe6cb9624222326d75c92fd74"
+                "reference": "8a34004aed6ff0aa4072360e3e5bd875edebc223"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d1ba096bf809c7cbe6cb9624222326d75c92fd74",
-                "reference": "d1ba096bf809c7cbe6cb9624222326d75c92fd74",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/8a34004aed6ff0aa4072360e3e5bd875edebc223",
+                "reference": "8a34004aed6ff0aa4072360e3e5bd875edebc223",
                 "shasum": ""
             },
             "require": {
@@ -896,7 +896,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2019-04-23T13:22:19+00:00"
+            "time": "2019-04-30T14:05:03+00:00"
         },
         {
             "name": "laravel/passport",
@@ -1380,16 +1380,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.17.0",
+            "version": "2.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "9b49d637ad009e5e211142bc7492adcb19dbd645"
+                "reference": "96acbc0c03782e8115156dd4dd8b736267155066"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/9b49d637ad009e5e211142bc7492adcb19dbd645",
-                "reference": "9b49d637ad009e5e211142bc7492adcb19dbd645",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/96acbc0c03782e8115156dd4dd8b736267155066",
+                "reference": "96acbc0c03782e8115156dd4dd8b736267155066",
                 "shasum": ""
             },
             "require": {
@@ -1436,7 +1436,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-04-17T08:51:36+00:00"
+            "time": "2019-04-27T18:04:27+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -1491,16 +1491,16 @@
         },
         {
             "name": "nuwave/lighthouse",
-            "version": "v3.4.0",
+            "version": "v3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nuwave/lighthouse.git",
-                "reference": "21c46e84568fc65cbbfb172bf754d8e64e832bd9"
+                "reference": "6ee2c7ed28d41c4c84a8ae87bcb7344c7d856105"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nuwave/lighthouse/zipball/21c46e84568fc65cbbfb172bf754d8e64e832bd9",
-                "reference": "21c46e84568fc65cbbfb172bf754d8e64e832bd9",
+                "url": "https://api.github.com/repos/nuwave/lighthouse/zipball/6ee2c7ed28d41c4c84a8ae87bcb7344c7d856105",
+                "reference": "6ee2c7ed28d41c4c84a8ae87bcb7344c7d856105",
                 "shasum": ""
             },
             "require": {
@@ -1560,7 +1560,7 @@
                 "laravel",
                 "laravel-graphql"
             ],
-            "time": "2019-04-18T18:23:44+00:00"
+            "time": "2019-04-30T13:51:46+00:00"
         },
         {
             "name": "opis/closure",
@@ -1861,16 +1861,16 @@
         },
         {
             "name": "psr/http-factory",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
-                "reference": "378bfe27931ecc54ff824a20d6f6bfc303bbd04c"
+                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/378bfe27931ecc54ff824a20d6f6bfc303bbd04c",
-                "reference": "378bfe27931ecc54ff824a20d6f6bfc303bbd04c",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
                 "shasum": ""
             },
             "require": {
@@ -1909,7 +1909,7 @@
                 "request",
                 "response"
             ],
-            "time": "2018-07-30T21:54:04+00:00"
+            "time": "2019-04-30T12:38:16+00:00"
         },
         {
             "name": "psr/http-message",
@@ -3606,16 +3606,16 @@
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "c3c330192bc9cc51b7e9ce968ff721dc32ffa986"
+                "reference": "37bf68b428850ee26ed7c3be6c26236dd95a95f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/c3c330192bc9cc51b7e9ce968ff721dc32ffa986",
-                "reference": "c3c330192bc9cc51b7e9ce968ff721dc32ffa986",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/37bf68b428850ee26ed7c3be6c26236dd95a95f1",
+                "reference": "37bf68b428850ee26ed7c3be6c26236dd95a95f1",
                 "shasum": ""
             },
             "require": {
@@ -3668,7 +3668,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2019-01-05T20:13:32+00:00"
+            "time": "2019-04-29T21:11:00+00:00"
         }
     ],
     "packages-dev": [
@@ -3947,6 +3947,58 @@
                 "test"
             ],
             "time": "2016-01-20T08:20:44+00:00"
+        },
+        {
+            "name": "mll-lab/laravel-graphql-playground",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mll-lab/laravel-graphql-playground.git",
+                "reference": "e5a3c527171c30bd18a61505f671c409f7fbd4dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mll-lab/laravel-graphql-playground/zipball/e5a3c527171c30bd18a61505f671c409f7fbd4dc",
+                "reference": "e5a3c527171c30bd18a61505f671c409f7fbd4dc",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=5.1.0",
+                "php": ">=7"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.12"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "MLL\\GraphQLPlayground\\GraphQLPlaygroundServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MLL\\GraphQLPlayground\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Benedikt Franke",
+                    "email": "benedikt@franke.tech"
+                }
+            ],
+            "description": "Easily integrate GraphQL Playground into your Laravel project",
+            "keywords": [
+                "graphql",
+                "graphql-playground",
+                "laravel"
+            ],
+            "time": "2019-04-17T16:39:16+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -4945,16 +4997,16 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "4.1.0",
+            "version": "4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "6fda8ce1974b62b14935adc02a9ed38252eca656"
+                "reference": "3095910f0f0fb155ac4021fc51a4a7a39ac04e8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/6fda8ce1974b62b14935adc02a9ed38252eca656",
-                "reference": "6fda8ce1974b62b14935adc02a9ed38252eca656",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/3095910f0f0fb155ac4021fc51a4a7a39ac04e8a",
+                "reference": "3095910f0f0fb155ac4021fc51a4a7a39ac04e8a",
                 "shasum": ""
             },
             "require": {
@@ -4969,7 +5021,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -4994,7 +5046,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2019-02-01T05:27:49+00:00"
+            "time": "2019-04-25T07:55:20+00:00"
         },
         {
             "name": "sebastian/exporter",

@@ -9,6 +9,8 @@ type Query {
     auth: User
     user(id: ID @eq): User @find
     users: [User!]! @paginate
+    secureUser(id: ID @eq): User @find @can(ability:"view")
+    secureUsers: [User!]! @paginate @middleware(checks:"auth")
 }
 
 type Mutation {
