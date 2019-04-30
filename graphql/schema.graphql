@@ -7,10 +7,10 @@ scalar Date @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\Date")
 type Query {
     hello: String
     auth: User
-    user(id: ID @eq): User @find
+    user(id: ID! @eq): User @find
     users: [User!]! @paginate
-    secureUser(id: ID @eq): User @find @can(ability:"view")
-    secureUsers: [User!]! @paginate @middleware(checks:"auth")
+    secureUser(id: ID! @eq): User @find @can(ability:view)
+    secureUsers: [User!]! @paginate @middleware(checks:auth) @can(ability:list, model: User)
 }
 
 type Mutation {

@@ -27,6 +27,17 @@ class UserPolicy
      * @param User $user
      * @return mixed
      */
+    public function list(User $user)
+    {
+        return true;
+    }
+
+    /**
+     * Determine whether the user can create models.
+     *
+     * @param User $user
+     * @return mixed
+     */
     public function create(User $user)
     {
         //

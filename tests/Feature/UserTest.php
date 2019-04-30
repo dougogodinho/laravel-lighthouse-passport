@@ -50,4 +50,15 @@ class UserTest extends TestCase
         $this->assertNotNull($response->json('data.user.name'));
         $this->assertNotNull($response->json('data.user.email'));
     }
+
+    public function testUserGetWithoutId()
+    {
+        $user = factory(User::class)->create();
+
+        $response = $this->graphql("{ user { id name email } }");
+
+        $response->assertDontSee($user->name);
+        $this->assertNull($response->json('data'));
+        $this->assertNotNull($response->json('errors.0.message'));
+    }
 }
