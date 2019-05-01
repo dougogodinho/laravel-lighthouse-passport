@@ -5,8 +5,10 @@
 /vendor
 /.idea
 .env
+.rnd
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+database.sqlite
